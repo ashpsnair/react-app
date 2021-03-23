@@ -1,38 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
 .App {
   text-align: center;
+  width: 90%;
+  max-width: 1400px;
+  border: solid rebeccapurple;
+}
+.sidebar {
+position: absolute;
+width: 237px;
+height: 1234px;
+left: -8.5px;
+top: -9.07px;
+background: #FAFBFD;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar h3{
+  position: absolute;
+  width: 114px;
+height: 20px;
+left: 48px;
+top: 38px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar ul{
+  list-style: none;
+  position: absolute;
+  top: 145px;
+  left: 38px;
+  text-align: left;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.sidebar ul li{
+margin: auto;
+height: 20px;
+font-family: Noto Sans JP;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+margin-top: 45px;
+color: #9E9E9E;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
