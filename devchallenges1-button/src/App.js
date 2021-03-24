@@ -18,8 +18,20 @@ function App() {
         
         </ul>
       </div>
-      <h1>hi</h1>
-      < Button name="default" />
+      <h1>Buttons</h1>
+      <div className="row1">
+        < Button name="default" content="<Button />" para="pdefault"/>
+        < Button name="defaultdark" content="&:hover &:focus" para="pdefaultdark"/>  
+      </div>
+      <div className="row">
+        < Button name="row21" content="<Button />" para="pdefault"/>
+        < Button name="row22" content="&:hover &:focus" para="pdefaultdark"/>  
+      </div>
+       <div className="row">
+        < Button name="default" content="<Button />" para="pdefault"/>
+        < Button name="defaultdark" content="&:hover &:focus" para="pdefaultdark"/>  
+      </div>
+      
     
     </div>
   );

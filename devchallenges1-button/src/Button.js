@@ -5,9 +5,8 @@ function Button(props) {
     return (
         
         <div>
-
-            <button className={props.name}> Default</button>
-            
+            <p className={props.para} > { props.content}</p>
+            <button className={props.name}> Default</button>   
             
         </div>      
         
